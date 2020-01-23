@@ -103,3 +103,28 @@ h3 {
 .btn:hover {
 	background-color: #ffffff33;
 }
+
+@media screen and (max-width: 500px) {
+	.container {
+		border: none;
+		padding: 0.5rem;
+		width: 100%;
+		height: 100%;
+	}
+
+	.password-display {
+		width: 80vw;
+	}
+}
+
+@media screen and (min-width: 500px) and (max-width: 900px) {
+	.container {
+		padding: 0.5rem;
+		width: 90%;
+		height: 90%;
+	}
+
+	.password-display {
+		width: 70vw;
+	}
+}
