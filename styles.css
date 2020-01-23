@@ -106,6 +106,7 @@ h3 {
 
 @media screen and (max-width: 500px) {
 	.container {
+		justify-content: space-around;
 		border: none;
 		padding: 0.5rem;
 		width: 100%;
